@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramiz-portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dcd5f1b0fe.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <a href="images/Md_Ramiz_Raja_Full_Stack_Web_Developer__Masai-2 (1).pdf" download
+                        class="btn btn2">Resume</i></a>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Md Ramiz</span><br> Raja From Jharkhand</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/9bc0e3a7-4fe4-46ed-a29e-294a1cfaf912.jpg" alt="profilepic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Analytical and detail-oriented
+                        aspiring Full Stack Developer,
+                        capable of writing production ready code. Collaborative,
+                        team player who is proficient
+                        in working with
+                        interdisciplinary team and
+                        executing goal oriented
+                        projects. Strongly interested
+                        in obtaining a Software
+                        Developer position to work on
+                        enhancing the product
+                        experience.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Design</span><br>HTML5, CSS, JavaScript, React, Redux, Chakra-UI, NodeJs,
+                                Express</li>
+                            <li><span>Programming Languages</span><br>Java (DSA),
+                                C++</li>
+                            <li><span>Tools</span><br>GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>April, 2022 - present</span><br>Full Stack Web Development<br>Masai School</li>
+                            <li><span>2018 - 2022</span><br>Electrical Engineering(B. Tech)<br>B. P. Poddar Institute Of
+                                Management And Technology, Kolkata</li>
+                            <li><span>2016 - 2018</span><br>Higher Secondary(12th) science<br>Sardar Patel Public
+                                School, Bokaro Steel City</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/udemy.png" alt="">
+                    <div class="layer">
+                        <h3>Udemy Clone</h3>
+                        <div>
+                            <h4>Tech Stack:- </h4>HTML | CSS | JavaScript | jsonbin.io (storage)
+                        </div>
+                        <div>
+                            <h4>Team size:- </h4>
+                            <span>A collaborative project built by a team of 5 developers completed in 7 days</span>
+                        </div>
+                        <a href="https://github.com/sonukryadav/Udemy-clone"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://joyful-cendol-eadc85.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/ajio.png" alt="">
+                    <div class="layer">
+                        <h3>Ajio Clone</h3>
+                        <div>
+                            <h4>Tech Stack:-</h4>
+                            <span>HTML | CSS | JavaScript | React | Redux | Chakra-UI</span>
+                        </div>
+                        <div>
+                            <h4>Team size:- </h4>
+                            <span>A collaborative project built by a team of 3 developers completed in 7 days</span>
+                        </div>
+                        <a href="https://github.com/Nagendrapasala/www.ajio.com"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://lighthearted-sopapillas-be11cd.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/sephora.png" alt="">
+                    <div class="layer">
+                        <h3>Sephora Clone</h3>
+                        <div>
+                            <h4>Tech Stack:-</h4>
+                            <span>HTML | CSS | JavaScript | Local Storage</span>
+                        </div>
+                        <div>
+                            <h4>Team Size:-</h4>
+                            <span>A collaborative project built by a team of 4 developers completed in 5 days</span>
+                        </div>
+                        <a href="https://github.com/Anjali280/SEPHORA"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://stellar-salamander-9ec7e5.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> mdramiz025@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 7903121944</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/raja00912"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Md_Ramiz_Raja_Full_Stack_Web_Developer__Masai-2 (1).pdf" download
+                        class="btn btn2">Resume <i class="fa-solid fa-download"></i></a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ramiz. Made by Me with <i class="fa-solid fa-heart"></i></p>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            console.log("yes");
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwfSCrt9FPBs5cxqsdeWtAyrxs2YOUhIqsxMDuWwQuEEpmIioI8hc9bGsJxtLIA2pnSDw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 4000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
